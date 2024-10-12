@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        
+
         <h2 id="todays-date"></h2>
         <h2 id="todays-time"></h2>
         <div class="sub-container">
@@ -32,9 +32,31 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 
+    <script>
+        // Disable right-click context menu
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Prevent specific keyboard shortcuts
+        document.onkeydown = function (e) {
+            if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+                return false; // Prevents opening dev tools
+            }
+        };
+
+        // Example obfuscated JavaScript code
+        function obfuscatedFunction() {
+            // const message = "This is an example of obfuscated code!";
+            // alert(message);
+        }
+
+        // Call the obfuscated function
+        obfuscatedFunction();
+    </script>
     <script src="./js/main.js"></script>
 </body>
 

@@ -64,8 +64,8 @@ body {
     /* Makes sure the pseudo-element takes up space */
     border-bottom: 2px solid #000;
     /* Set the thickness, style, and color */
-    margin-top: 10px;
-    /* Optional: adds some space above the line */
+    margin-top: 40px;
+    /* Optional: adds some space above the line */;
 }
 
 .input-section {
